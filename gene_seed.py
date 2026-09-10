@@ -1,0 +1,10 @@
+print("My name is Connor")
+print("My favorite table top game is Warhammer 40k")
+print("I am playing as spacemarines with the ultramarine 1st company(Warriors of Macragge) paint job")
+print("My favorite food is sushi")
+print("I love star wars")
+sign_off_message = "Thats all, May the emporer bless you"
+print(sign_off_message)
+print("Hi again")
+name = input("what is your name?")
+print(f"Hello {name} and welcome to Terra")
