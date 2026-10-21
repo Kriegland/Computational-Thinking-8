@@ -49,6 +49,6 @@ print (f"Thank you for cooperation in taking this quiz to see your faction. Your
 if Imperium > Chaos and Imperium > Xenos:
     print ("Welcome to the Imperium and may you have the Emporer's blessing.")
 elif Chaos > Xenos and Chaos > Imperium:
-    print ("So you chosen heracy. Tell you what i will give you a minute head start.")
+    print ("So youve chosen heracy. Tell you what I will give you a minute head start.")
 elif Xenos > Imperium and Xenos > Chaos:
     print ("Brothers we must PURGE THE UNCLEAN!!!")
