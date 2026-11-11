@@ -1,11 +1,11 @@
 import random
 
 # Pick a word at random
-word_list = ["Barge, Slate, Orbit, Glass, Extra, Caves, Apple, Fraud, Pizza, Stuck."]
+word_list = ["Barge", "Slate", "Orbit", "Glass", "Extra", "Caves", "Apple", "Fraud", "Pizza", "Stuck"]
 hidden_word = random.choice(word_list)
-
-# Guess a word
-guess_word = input("ENTER A WORD: ")
+for i in range (6):
+     # Guess a word
+    guess_word = input("ENTER A WORD: (dont forget to capitalize the first letter) ")
 output = ""
 
 # First letter (in python, counting starts at 0 not 1)
@@ -17,34 +17,34 @@ else:
     output += "⬛"
 
 if guess_word[1] == hidden_word[1]:
-    output += "🟩"
+     output += "🟩"
 elif guess_word[1] in hidden_word:
     output += "🟨"
 else:
     output += "⬛"
 
 if guess_word[2] == hidden_word[2]:
-    output += "🟩"
+     output += "🟩"
 elif guess_word[2] in hidden_word:
     output += "🟨"
 else:
     output += "⬛"
 
 if guess_word[3] == hidden_word[3]:
-    output += "🟩"
+     output += "🟩"
 elif guess_word[3] in hidden_word:
     output += "🟨"
 else:
     output += "⬛"
 
 if guess_word[4] == hidden_word[4]:
-    output += "🟩"
+     output += "🟩"
 elif guess_word[4] in hidden_word:
     output += "🟨"
 else:
     output += "⬛"
 
-    # Result
+# Result
 print(f"Result: {output}")
 if output == "🟩🟩🟩🟩🟩":
     print("You win")
